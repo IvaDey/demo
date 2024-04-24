@@ -1,0 +1,24 @@
+{
+  "directory": [
+    "base",
+
+    "core/controllers",
+    "core/decorators",
+    "core/entities",
+    "core/middlewares",
+    "core/models",
+
+    "./src/controllers/v1",
+
+    "./src/entities",
+    "./src/db"
+  ],
+  "exclude": [
+    "__mock__",
+    "__mocks__",
+    ".spec.ts"
+  ],
+  "delete": true,
+  "flat": true,
+  "singleQuotes": true
+}
