@@ -34,6 +34,8 @@ export class EntityBaseController {
     const data = [new EntityBase()];
 
     data[0].id = 123;
+    data[0].createdAt = new Date().toISOString();
+    data[0].updatedAt = new Date().toISOString();
 
     return {
       total: data.length,
